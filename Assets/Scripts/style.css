@@ -1,0 +1,59 @@
+/* font setup */
+.page-wrapper {
+  font-family: "Cairo", sans-serif;
+  background-color: #6694b9;
+  color: #b98c66;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto 0px auto;
+}
+/* # Color Pallete
+#c93f2d	Antiquity Rust bg
+    complimentry: #b98c66
+#b98c66 Anna Blonde text
+#385077 charm bead blue
+
+*/
+a {
+  color: #385077;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* .background-box {
+  display: flex;
+  background-color: #c16c4b;
+} */
+.navbar {
+  background-color: #2db7c9;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+li > a {
+  color: #b98c66;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex: 1;
+  /* padding: 0 40px; */
+}
+.nav-item {
+  display: flex;
+  padding-right: 25px;
+  padding-left: 25px;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-evenly;
+  flex: 1;
+}
+.header-top {
+  background: #c93f2d;
+  margin-top: 0;
+}
+.projects {
+  background: #4e708a;
+}
