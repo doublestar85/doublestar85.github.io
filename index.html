@@ -6,58 +6,70 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="portfolio-page">
         <title>star-dox</title>
-        <meta name="portfolio-page" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- CSS only -->
         <link type="text/css" rel="stylesheet" href="Assets/Scripts/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link type="text/css" rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+<!-- Fonts -->
          <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet"> 
     </head>
 
-
-<body class="page-wrapper">
+<body class="page-wrapper d-flex flex-column">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<div class="background-box container">
-        <div id="welcome-section">
-            <h1 class="header-top">
-               star
-            </h1>
-        </div>
+<navbar id="navbar" class="d-flex flex-row container-fluid">>
+    <i class="fab fa-apple faze"></i> 
+    <i class="fa fa-folder-open faze"></i>
+   <a href="/">~/project-star</a>
+    <i class="fas fa-meteor faze"></i>
+   <p><span>on</span><span class="faze"><a class="master"1 href="https://twitter.com/NuminousStar">master</a></span></p>
+</navbar>
+
+<div id="welcome-section" class="projects-wrapper d-flex flex-column justify-content-between">
+    <div class="container d-flex starbox">
+        <h1 class="heading-text">progress tracking</h1>
+                <ul class="nav-item" id="dev-pages">
+                    <li><a id="profile-link" href="https://github.com/doublestar85" target="_blank">#github</a></li>
+                    <li><a id="profile-link" href="https://www.freecodecamp.org/doublstar" target="_blank">#fccprofile</a></li> <!-- may eventually be it's own page -->
+                    <!-- <li><a href="#devtwitter">#devtwitter</a></li> -->
+                    <li><a href="#projects">#projects</a></li>
+                </ul>
+    </div>
+    <div class="header welcome-section-2">
+            <div id="navbar" class="container d-flex toolbox">
+                <p class="heading-text">favorite tools</p>
+                    <ul class="nav-item" id="favorite-tools">
+                    <li><a href="https://code.visualstudio.com/">#vscode</a></li>
+                    <li><a href="#testground">#testground</a></li>
+                    <li><a href="https://happenapps.com/">#quiver</a></li>
+                </ul>
+            </div>
+    </div>
 </div>
 
-<div class="header">
+<div class="projects-header container">
+         <div class="chaos-snuggles">
+            <h2>Past Projects</h2>
+                <div id="projects" class="container d-flex justify-content-around">
+                        <a class="project-tile card-body bg-dark text-center" href="https://codepen.io/doublestar85/full/pogppEG" id="young-link-tribute" target="_blank" id="young-link-tribute">Young Link Tribute Page</a>
+                        <a id="testground"  href="#testground"class="project-tile card-body bg-dark text-center">#testground (coming soon)</a>
+                    </div>
+                </div>
 
-    <navbar id="top-navigation-bar" class="navbar container">
-        <ul class="nav-item" id="favorite-tools">
-            <li><a href="#vscode">#vscode</a></li>
-            <li><a href="#testground">#testground</a></li>
-            <li><a href="#quiver">#quiver</a></li>
-        </ul>
-
-        <ul class="nav-item" id="dev-pages">
-            <li><a href="#github">#github</a></li>
-            <li><a id="profile-link" href="#fccprofile">#fccprofile</a></li> <!-- may eventually be it's own page -->
-            <li><a href="#devtwitter">#devtwitter</a></li>
-                          </ul>
-    </navbar>
+         </div>
 </div>
-
-<div id="projects-container" class="projects container">
-    
-        <a href="#" id="young-link-tribute">Young Link Tribute Page</a>
-
-</div>
-
-        
-        <script src="" async defer></script>
         <!-- JS, Popper.js, and jQuery -->
+<!-- fcc test script -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- Font Awesome cdn -->
+<script src="https://kit.fontawesome.com/fc85507a74.js" crossorigin="anonymous"></script>
     </body>
 </html> 

@@ -1,35 +1,39 @@
+/* # Color Pallete
+#c93f2d	Antiquity Rust bg
+    complimentry: #b98c66
+#b98c66 Anna Blonde text
+#385077 charm bead blue
+*/
+
 /* font setup */
 .page-wrapper {
   font-family: "Cairo", sans-serif;
   background-color: #6694b9;
   color: #b98c66;
 }
-.container {
-  max-width: 1200px;
-  margin: 0px auto 0px auto;
+.git-test {
+  color: rgb(85, 181, 33);
 }
-/* # Color Pallete
-#c93f2d	Antiquity Rust bg
-    complimentry: #b98c66
-#b98c66 Anna Blonde text
-#385077 charm bead blue
-
-*/
 a {
   color: #385077;
 }
 a:hover {
   text-decoration: underline;
 }
-/* .background-box {
-  display: flex;
-  background-color: #c16c4b;
-} */
-.navbar {
-  background-color: #2db7c9;
+.starbox {
+  background-color: rgb(254, 167, 235);
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  align-items: center;
+  height: 320px;
+}
+.header {
+  margin-top: 0;
+}
+.toolbox {
+  background-color: rgb(37, 219, 243);
+  margin: 0 auto;
+  align-items: center;
+  height: 320px;
 }
 li > a {
   color: #b98c66;
@@ -39,7 +43,7 @@ li > a {
   text-transform: uppercase;
   display: flex;
   flex: 1;
-  /* padding: 0 40px; */
+  padding: 0 40px;
 }
 .nav-item {
   display: flex;
@@ -47,13 +51,73 @@ li > a {
   padding-left: 25px;
   list-style: none;
   text-decoration: none;
-  justify-content: space-evenly;
-  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-end;
 }
-.header-top {
-  background: #c93f2d;
-  margin-top: 0;
-}
-.projects {
+.projects-wrapper {
+  min-height: 100vh;
+  border-top-style: solid;
+  border-top-width: 50px;
+  margin-top: 0 auto;
   background: #4e708a;
+}
+.chaos-snuggles {
+  min-height: 100vh;
+  border-top-style: solid;
+  border-top-width: 50px;
+  background: #4e708a;
+  margin: 0 auto;
+}
+.chaos-snuggles h2 {
+  background-color: rgb(254, 167, 235);
+  justify-content: center;
+  display: flex;
+}
+navbar span {
+  font-family: "Fira Code", monospace;
+  line-height: 1;
+}
+a.master {
+  color: rgb(85, 181, 33);
+}
+navbar {
+  font-size: 1.75rem;
+  line-height: 1;
+  position: fixed;
+  height: 50px;
+  background-color: rgb(218, 250, 165);
+  flex-grow: 1;
+}
+navbar a {
+  font-family: "Fira Code", monospace;
+  line-height: 1;
+  font-size: 1.85rem;
+  text-decoration: none;
+  color: inherit;
+  padding-top: 5px;
+}
+.faze {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  line-height: 1.5;
+  margin: 0em;
+}
+
+h1.heading-text {
+  font-weight: 280;
+  line-height: 1;
+  font-size: 30px;
+  margin: 0em;
+}
+
+p.heading-text {
+  font-weight: 280;
+  line-height: 1;
+  font-size: 30px;
+  margin: 0em;
+}
+a.project-tile {
+  color: inherit;
 }
