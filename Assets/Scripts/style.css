@@ -73,6 +73,7 @@ li > a {
   background-color: rgb(254, 167, 235);
   justify-content: center;
   display: flex;
+  margin-bottom: 0rem;
 }
 navbar span {
   font-family: "Fira Code", monospace;
@@ -88,6 +89,25 @@ navbar {
   height: 50px;
   background-color: rgb(218, 250, 165);
   flex-grow: 1;
+}
+
+@media screen and (max-width: 576px) {
+  navbar {
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #projects,
+  #c-projects {
+    flex-direction: column;
+    :0px ;
+  }
+  .projects-wrapper {
+    border-top-width: 92px;
+  }
+  .chaos-snuggles {
+    border-top-width: 92px;
+  }
 }
 navbar a {
   font-family: "Fira Code", monospace;
